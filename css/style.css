@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    font-family:Verdana, Geneva, Arial, sans-serif
+    font-family:Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -18,20 +18,25 @@ header{
 
 }
 
+nav {
+    background-color: #2F5D8A;
+    padding: 10px;
+}
+
 nav u1 {
     margin:0px;
     padding:0px;
 }
 
 nav li {
-    display: inline
+    display: inline;
     margin-right: 20px;
 
 
 }
 
 nav a {
-    color: #FFFFFF
+    color: #FFFFFF;
     text-decoration: none;
 
 }
@@ -42,6 +47,6 @@ main{
 }
 footer {
     background-color: #1F3A5F;
-    color:#FFFFFF
+    color:#FFFFFF;
     padding: 10px;
 }
