@@ -12,14 +12,14 @@ h1,h2,h3,p,li{
 }
 
 header{
-    background-color: #1F3A5F;
-    color:#FFFFFF;
+    background: linear-gradient(#1F3A5F, #2F5D8A);
+    color: #FFFFFF;
     padding: 10px;
 
 }
 
 nav {
-    background-color: #2F5D8A;
+    background: linear-gradient(45deg, #1F3A5F, #2F5D8A);
     padding: 10px;
 }
 
