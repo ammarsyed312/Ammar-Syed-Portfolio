@@ -1,52 +1,176 @@
 @charset "UTF-8";
 
+/* Main page style */
 body {
-    font-family:Verdana, Geneva, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     padding: 0px;
+    margin: 0px;
+    background-color: #F1E8E6;
+    color: #252525;
+}
+
+/* Text spacing */
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Add more space to main content */
+main {
+    padding: 35px;
+}
+
+/* Header with regular linear gradient */
+header {
+    background: linear-gradient(#552D38, #8A5362);
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation with angled linear gradient */
+nav {
+    background: linear-gradient(45deg, #552D38, #8A5362);
+    padding: 15px;
+    text-align: center;
+}
+
+/* Remove default list spacing */
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation link spacing */
+nav li {
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Navigation link appearance */
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Navigation hover effect */
+nav a:hover {
+    color: #F1E8E6;
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    background-color: #F1E8E6;
+    color: #252525;
+    padding: 20px;
+
+}
+
+/* Headings */
+h2, h3 {
+    color: #552D38;
+}
+
+/* Footer */
+footer {
+    background-color: #552D38;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+/* About Me layout */
+.about-section {
+    width: 100%;
+    overflow: auto;
+}
+
+/* Photo on the left */
+.about-section img {
+    float: left;
+    width: 20%;
+    max-width: 250px;
+    height: auto;
+    margin-right: 3%;
+}
+
+/* Introduction in the middle */
+.about-content {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+/* Video on the right */
+.video-section {
+    float: right;
+    width: 25%;
+}
+
+/* Video size */
+.video-section video {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+}
+
+
+
+/* Homepage sections */
+.home-section {
+    background-color: #FFFFFF;
+    padding: 25px;
+    margin-bottom: 25px;
+    overflow: auto;
+}
+
+/* Homepage headings */
+.home-section h2 {
+    color: #552D38;
+}
+
+/* Interest boxes */
+.interest {
+    float: left;
+    width: 29%;
+    background-color: #F1E8E6;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    border: 1px solid #8A5362;
+}
+
+/* Interest headings */
+.interest h3 {
+    color: #552D38;
     margin: 0px;
 }
 
 
-h1,h2,h3,p,li{
-    margin-left: 15px;
+/* Welcome text on the left */
+.welcome-text {
+    float: left;
+    width: 50%;
 }
 
-header{
-    background: linear-gradient(#1F3A5F, #2F5D8A);
-    color: #FFFFFF;
-    padding: 10px;
-
-}
-
-nav {
-    background: linear-gradient(45deg, #1F3A5F, #2F5D8A);
-    padding: 10px;
-}
-
-nav u1 {
-    margin:0px;
-    padding:0px;
-}
-
-nav li {
-    display: inline;
-    margin-right: 20px;
-
-
-}
-
-nav a {
-    color: #FFFFFF;
-    text-decoration: none;
-
-}
-
-main{
-    background-color: #1F3A5F;
-    padding: 20px;
-}
-footer {
-    background-color: #1F3A5F;
-    color:#FFFFFF;
-    padding: 10px;
+/* Club photo on the right */
+.club-photo {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin: 10px;
 }

@@ -13,3 +13,52 @@ video {
     max-width: 70%;
     height: auto;
 }
+
+/* Stack About Me content on smaller screens */
+.about-section img,
+.about-content,
+.video-section {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Profile photo size */
+.about-section img {
+    width: 200px;
+    height: auto;
+}
+
+/* Video size */
+.video-section video {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+}
+
+
+
+/* Stack interest boxes on smaller screens */
+.interest {
+    float: none;
+    width: 90%;
+    margin: 10px 0px;
+}
+
+
+
+/* Stack welcome text and club photo */
+.welcome-text,
+.club-photo {
+    float: none;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+/* Responsive club photo */
+.club-photo {
+    max-width: 100%;
+    height: auto;
+}
