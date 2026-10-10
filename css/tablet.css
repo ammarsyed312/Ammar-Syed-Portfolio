@@ -62,3 +62,9 @@ video {
     max-width: 100%;
     height: auto;
 }
+
+/* Contact form on tablets */
+.contact-box {
+    width: 75%;
+    padding: 20px;
+}

@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+
     <title>About Me</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -36,49 +37,76 @@
         </ul>
     </nav>
 
-    <!-- About Me content -->
     <main>
+
         <h2>About Me</h2>
 
-        <section class="about-section">
+        <!-- Profile and biography -->
+        <section class="about-layout">
 
-            <!-- Profile photo on the left -->
-            <img src="images/Ammar.jpeg" alt="Photo of Ammar Syed">
-
-            <!-- Introduction in the middle -->
-            <article class="about-content">
-
-                <h2>Hello, I'm Ammar Syed!</h2>
-
-                <p>
-                    I am interested in cybersecurity, technology,
-                    and developing my technical skills.
-                </p>
-
-                <p>
-                    This portfolio showcases my projects,
-                    interests, and what I have learned
-                    throughout my studies.
-                </p>
-
-                <h3>My Experiences</h3>
-                <p>Throughout my academic journey, I have gained valuable experience in technology, cybersecurity, and networking through various projects and hands-on assignments. These experiences have helped me develop my problem-solving, critical-thinking, and teamwork skills. I have also developed an interest in leadership, communication, and collaborating with others to achieve common goals. I am always looking for opportunities to expand my knowledge, take on new challenges, and apply what I have learned in real-world situations.</p>
-
+            <!-- Photo on the left -->
+            <article class="about-photo-box">
+                <img src="images/Ammar.jpeg"
+                     alt="Photo of Ammar Syed">
             </article>
 
-            <!-- Introduction video on the right -->
-            <section class="video-section">
+            <!-- Text sections on the right -->
+            <section class="about-text-boxes">
 
-                <h3>Introduction Video</h3>
+                <!-- Introduction -->
+                <article class="about-box">
+                    <h2>Hello, I'm Ammar Syed!</h2>
 
-                <video width="320" controls poster="images/poster.jpg">
-                    <source src="video/intro.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                    <p>
+                        I am interested in cybersecurity,
+                        technology, and developing my
+                        technical skills.
+                    </p>
+
+                    <p>
+                        This portfolio showcases my projects,
+                        interests, and what I have learned
+                        throughout my studies.
+                    </p>
+                </article>
+
+                <!-- Experiences -->
+                <article class="about-box">
+                    <h2>My Experiences</h2>
+
+                    <p>
+                        Throughout my academic journey, I have
+                        gained valuable experience in technology,
+                        cybersecurity, and networking through
+                        various projects and hands-on assignments.
+                        These experiences have helped me develop
+                        my problem-solving, critical-thinking,
+                        and teamwork skills. I have also developed
+                        an interest in leadership, communication,
+                        and collaborating with others to achieve
+                        common goals. I am always looking for
+                        opportunities to expand my knowledge,
+                        take on new challenges, and apply what
+                        I have learned in real-world situations.
+                    </p>
+                </article>
 
             </section>
 
         </section>
+
+        <!-- Introduction video -->
+        <section class="about-video-box">
+
+            <h2>Introduction Video</h2>
+
+            <video width="400" controls poster="images/poster.jpg">
+                <source src="video/intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </section>
+
     </main>
 
     <!-- Footer -->

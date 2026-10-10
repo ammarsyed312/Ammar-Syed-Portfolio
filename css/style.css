@@ -93,40 +93,56 @@ footer {
     padding: 10px;
 }
 
-/* About Me layout */
-.about-section {
+
+/* Main About Me layout */
+.about-layout {
     width: 100%;
     overflow: auto;
+    margin-bottom: 20px;
 }
 
-/* Photo on the left */
-.about-section img {
+/* Photo box on the left */
+.about-photo-box {
     float: left;
-    width: 20%;
-    max-width: 250px;
+    width: 30%;
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+/* Make About Me photo fill its box */
+.about-photo-box img {
+    width: 100%;
+    max-width: 100%;
     height: auto;
-    margin-right: 3%;
 }
 
-/* Introduction in the middle */
-.about-content {
-    float: left;
-    width: 40%;
-    padding: 10px;
-}
-
-/* Video on the right */
-.video-section {
+/* Text boxes on the right */
+.about-text-boxes {
     float: right;
-    width: 25%;
+    width: 62%;
+}
+
+/* Individual white text boxes */
+.about-box {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Introduction video section */
+.about-video-box {
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Video size */
-.video-section video {
-    width: 100%;
-    max-width: 320px;
+.about-video-box video {
+    width: 40%;
     height: auto;
 }
+
 
 
 
@@ -174,3 +190,83 @@ footer {
     height: auto;
     margin: 10px;
 }
+
+
+/* Container for projects */
+.projects-section {
+    width: 100%;
+    overflow: auto;
+}
+
+/* Individual project boxes */
+.project {
+    float: left;
+    width: 46%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #FFFFFF;
+    min-height: 180px;
+}
+
+/* Project headings */
+.project h3 {
+    color: #592D3A;
+}
+
+
+
+/* Contact form white box */
+.contact-box {
+    background-color: #FFFFFF;
+    width: 55%;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+/* Center contact heading */
+.contact-box h2 {
+    text-align: center;
+    color: #592D3A;
+}
+
+/* Center contact description */
+.contact-box > p {
+    text-align: center;
+}
+
+/* Place labels above form fields */
+.contact-box label {
+    display: block;
+    margin-bottom: 8px;
+    color: #592D3A;
+}
+
+/* Style text fields */
+.contact-box input[type="text"],
+.contact-box input[type="email"],
+.contact-box input[type="tel"],
+.contact-box textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #A47C87;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+/* Burgundy submit button */
+.contact-box input[type="submit"] {
+    background-color: #592D3A;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+/* Button hover effect */
+.contact-box input[type="submit"]:hover {
+    background-color: #814D5E;
+}
+
+
