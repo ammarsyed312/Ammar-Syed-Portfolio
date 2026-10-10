@@ -9,7 +9,7 @@ body {
     color: #252525;
 }
 
-/* Text spacing */
+/* Text sizes */
 h1 {
     font-size: 36px;
 }
@@ -27,11 +27,6 @@ p {
     line-height: 1.6;
 }
 
-/* Add more space to main content */
-main {
-    padding: 35px;
-}
-
 /* Header with regular linear gradient */
 header {
     background: linear-gradient(#552D38, #8A5362);
@@ -47,20 +42,19 @@ nav {
     text-align: center;
 }
 
-/* Remove default list spacing */
+/* Navigation list */
 nav ul {
     margin: 0px;
     padding: 0px;
 }
 
-/* Navigation link spacing */
 nav li {
     display: inline;
     margin-left: 15px;
     margin-right: 15px;
 }
 
-/* Navigation link appearance */
+/* Navigation links */
 nav a {
     color: #FFFFFF;
     text-decoration: none;
@@ -78,7 +72,6 @@ main {
     background-color: #F1E8E6;
     color: #252525;
     padding: 20px;
-
 }
 
 /* Headings */
@@ -93,6 +86,8 @@ footer {
     padding: 10px;
 }
 
+
+/* ABOUT ME PAGE */
 
 /* Main About Me layout */
 .about-layout {
@@ -109,7 +104,7 @@ footer {
     padding: 15px;
 }
 
-/* Make About Me photo fill its box */
+/* Profile photo */
 .about-photo-box img {
     width: 100%;
     max-width: 100%;
@@ -122,7 +117,7 @@ footer {
     width: 62%;
 }
 
-/* Individual white text boxes */
+/* Individual text boxes */
 .about-box {
     background-color: #FFFFFF;
     padding: 20px;
@@ -137,14 +132,14 @@ footer {
     margin-bottom: 20px;
 }
 
-/* Video size */
+/* Introduction video size */
 .about-video-box video {
     width: 40%;
     height: auto;
 }
 
 
-
+/* HOME PAGE */
 
 /* Homepage sections */
 .home-section {
@@ -152,11 +147,6 @@ footer {
     padding: 25px;
     margin-bottom: 25px;
     overflow: auto;
-}
-
-/* Homepage headings */
-.home-section h2 {
-    color: #552D38;
 }
 
 /* Interest boxes */
@@ -176,14 +166,13 @@ footer {
     margin: 0px;
 }
 
-
-/* Welcome text on the left */
+/* Welcome text */
 .welcome-text {
     float: left;
     width: 50%;
 }
 
-/* Club photo on the right */
+/* Club photo */
 .club-photo {
     float: right;
     width: 40%;
@@ -192,7 +181,9 @@ footer {
 }
 
 
-/* Container for projects */
+/* PROJECTS PAGE */
+
+/* Projects container */
 .projects-section {
     width: 100%;
     overflow: auto;
@@ -201,7 +192,7 @@ footer {
 /* Individual project boxes */
 .project {
     float: left;
-    width: 46%;
+    width: 45%;
     margin: 1%;
     padding: 1%;
     background-color: #FFFFFF;
@@ -210,12 +201,13 @@ footer {
 
 /* Project headings */
 .project h3 {
-    color: #592D3A;
+    color: #552D38;
 }
 
 
+/* CONTACT PAGE */
 
-/* Contact form white box */
+/* Contact form box */
 .contact-box {
     background-color: #FFFFFF;
     width: 55%;
@@ -223,25 +215,25 @@ footer {
     padding: 30px;
 }
 
-/* Center contact heading */
+/* Contact heading */
 .contact-box h2 {
     text-align: center;
-    color: #592D3A;
+    color: #552D38;
 }
 
-/* Center contact description */
+/* Contact description */
 .contact-box > p {
     text-align: center;
 }
 
-/* Place labels above form fields */
+/* Form labels */
 .contact-box label {
     display: block;
     margin-bottom: 8px;
-    color: #592D3A;
+    color: #552D38;
 }
 
-/* Style text fields */
+/* Form fields */
 .contact-box input[type="text"],
 .contact-box input[type="email"],
 .contact-box input[type="tel"],
@@ -249,14 +241,14 @@ footer {
     width: 95%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #A47C87;
+    border: 1px solid #8A5362;
     font-family: "Times New Roman", Times, serif;
     font-size: 16px;
 }
 
-/* Burgundy submit button */
+/* Submit button */
 .contact-box input[type="submit"] {
-    background-color: #592D3A;
+    background-color: #552D38;
     color: #FFFFFF;
     padding: 12px 30px;
     border: none;
@@ -264,9 +256,7 @@ footer {
     font-size: 18px;
 }
 
-/* Button hover effect */
+/* Submit button hover effect */
 .contact-box input[type="submit"]:hover {
-    background-color: #814D5E;
+    background-color: #8A5362;
 }
-
-

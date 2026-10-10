@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,14 +8,18 @@
 
     <title>Contact Me</title>
 
+    <!-- Main stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!-- Laptop stylesheet -->
     <link href="css/laptop.css" rel="stylesheet" type="text/css"
     media="only screen and (min-width:961px)">
 
+    <!-- Tablet stylesheet -->
     <link href="css/tablet.css" rel="stylesheet" type="text/css"
     media="only screen and (min-width:481px) and (max-width:960px)">
 
+    <!-- Mobile stylesheet -->
     <link href="css/mobile.css" rel="stylesheet" type="text/css"
     media="only screen and (max-width:480px)">
 </head>
@@ -27,7 +31,7 @@
         <h1>Ammar Syed Portfolio</h1>
     </header>
 
-    <!-- Navigation -->
+    <!-- Navigation links -->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -37,9 +41,10 @@
         </ul>
     </nav>
 
-    <!-- Contact page content -->
+    <!-- Main contact page content -->
     <main>
 
+        <!-- Contact form section -->
         <section class="contact-box">
 
             <h2>Contact Me</h2>
@@ -55,30 +60,52 @@
                   enctype="text/plain"
                   name="form">
 
+                <!-- Name field -->
                 <p>
                     <label for="name">Name</label>
-                    <input type="text" id="name"
-                           name="name" required>
+
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           size="32"
+                           required>
                 </p>
 
+                <!-- Email field -->
                 <p>
                     <label for="email">Email</label>
-                    <input type="email" id="email"
-                           name="email" required>
+
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           size="40"
+                           required>
                 </p>
 
+                <!-- Phone number field -->
                 <p>
                     <label for="phone">Cell No.</label>
-                    <input type="tel" id="phone"
-                           name="phone" required>
+
+                    <input type="tel"
+                           id="phone"
+                           name="phone"
+                           pattern="[0-9]{10}"
+                           title="Enter a 10-digit phone number"
+                           required>
                 </p>
 
+                <!-- Comments field -->
                 <p>
                     <label for="comments">Comments</label>
-                    <textarea id="comments" name="comments"
-                              rows="5" required></textarea>
+
+                    <textarea id="comments"
+                              name="comments"
+                              cols="60"
+                              rows="6"
+                              required></textarea>
                 </p>
 
+                <!-- Submit button -->
                 <p>
                     <input type="submit" value="Submit">
                 </p>
@@ -89,7 +116,7 @@
 
     </main>
 
-    <!-- Footer -->
+    <!-- Website footer -->
     <footer>
         <p>Contact: ammar.syed1@ontariotechu.net</p>
         <p>&copy; 2026 Ammar Syed</p>

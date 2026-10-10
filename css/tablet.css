@@ -1,67 +1,84 @@
 @charset "UTF-8";
 
-body {
-    width: 100%;
-}
-
+/* Responsive images */
 img {
     max-width: 70%;
     height: auto;
 }
 
+/* Responsive videos */
 video {
     max-width: 70%;
     height: auto;
 }
 
-/* Stack About Me content on smaller screens */
-.about-section img,
-.about-content,
-.video-section {
+
+/* ABOUT ME PAGE */
+
+/* Stack About Me sections vertically */
+.about-photo-box,
+.about-text-boxes {
     float: none;
+    width: 85%;
+    margin: 20px auto;
+}
+
+/* Profile photo */
+.about-photo-box img {
     width: 100%;
     max-width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-
-/* Profile photo size */
-.about-section img {
-    width: 200px;
     height: auto;
 }
 
-/* Video size */
-.video-section video {
-    width: 100%;
-    max-width: 320px;
+/* About Me text boxes */
+.about-box {
+    padding: 20px;
+}
+
+/* Introduction video */
+.about-video-box video {
+    width: 70%;
+    max-width: 100%;
     height: auto;
 }
 
 
+/* HOME PAGE */
 
-/* Stack interest boxes on smaller screens */
+/* Stack interest boxes vertically */
 .interest {
     float: none;
-    width: 90%;
-    margin: 10px 0px;
+    width: 85%;
+    margin: 15px auto;
 }
-
-
 
 /* Stack welcome text and club photo */
 .welcome-text,
 .club-photo {
     float: none;
     width: 100%;
-    margin: 10px 0px;
+    margin: 15px auto;
 }
 
-/* Responsive club photo */
+/* Club photo */
 .club-photo {
     max-width: 100%;
     height: auto;
 }
+
+
+/* PROJECTS PAGE */
+
+/* Stack project boxes vertically */
+.project {
+    float: none;
+    clear: both;
+    width: 85%;
+    margin: 20px auto;
+}
+
+
+/* CONTACT PAGE */
 
 /* Contact form on tablets */
 .contact-box {
